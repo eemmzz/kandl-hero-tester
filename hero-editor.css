@@ -1,0 +1,82 @@
+.editCta {
+	background-image: url('./images/pen.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.9;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+}
+
+.editCta {
+	background-color: #FFF;
+	transition-duration: 0.5s;
+}
+
+.editCta:hover {
+	background-color: #FFFF00;
+	transition-duration: 0.5s;
+}
+
+.heroEditHolder {
+	background-color: rgba(80,80,80,0.5);
+	width: 430px;
+	padding: 16px;
+	position: absolute;
+	display: block;
+	right: 0px;
+	top: 40px;
+}
+
+#colourPalettes {
+	margin: 0px;
+	padding: 0px;
+}
+
+#colourPalettes > li {
+	list-style: none;
+	display: inline-block;
+	margin: -1px 0px 0px -4px;
+	width: 112px;
+	height: 112px;
+	padding: 12px;
+	font-size: 16px;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+#colourPalettes > li:hover {
+	cursor: pointer;
+}
+
+#heroTitleForm {
+	padding-top: 16px;
+}
+
+#heroTitleInput {
+	font-size: 22px;
+	width: 312px;
+}
+
+.submitButton {
+	height: 40px;
+	margin-top: 12px;
+	display: block;
+	font-size: 16px;
+}
+
+.closeCta {
+	cursor: pointer;
+	background-image: url('images/close.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	display: block;
+	top: 5px;
+	right: 5px;
+}

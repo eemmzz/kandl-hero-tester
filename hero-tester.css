@@ -1,0 +1,117 @@
+body, html {
+	background-color: #F1F1EE;
+	font-family: 'Oxygen', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#heroTypeList {
+	text-align: center;
+	background-color: #333;
+	margin: 0px;
+	padding: 0px;
+}
+
+#heroTypeList > li {
+	list-style: none;
+	display: inline-block;
+	padding: 12px;
+}
+
+.heroOption {
+	color: #FFF;
+	text-decoration: none;
+}
+.heroOption:hover {
+	color: #333;
+	background-color: #FFF;
+}
+
+.logo {
+	background-image: url('http://static.bbci.co.uk/kandlguides/4.14.27.0/img/vendor/kandl-common-sass/iwonder-mobile.png');
+	background-position: 0px 2px;
+	background-repeat: no-repeat;
+	width: 97px;
+	height: 26px;
+	padding: 0px 0px 2px 0px;
+	margin-left: 10px;
+}
+
+.titleHolder, .logoHolder {
+	margin: 0px auto 0px auto;
+	padding: 8px 8px 0px 8px;
+}
+
+.titlePanel {
+	opacity: 0.9;
+	position: relative;
+	padding: 8px;
+}
+
+.titlePanel > h2 {
+	font-size: 32px;
+	line-height: 38px;
+	margin: 0px;
+}
+
+#dropZone {
+	background-image: url('http://ichef.bbci.co.uk/images/ic/1600xn/p029q02x.jpg');
+	background-color: #FFF;
+	width: 100%;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.orb-nav-section > ul {
+	display: none;
+}
+
+@media screen and (min-width: 500px) {
+	.titleHolder, .logoHolder {
+		padding: 0px 8px 0px 8px;
+		padding: 8px;
+	}
+
+	.titlePanel {
+		padding: 10px 16px 10px 16px;
+	}
+
+	.titlePanel > h2 {
+		font-size: 59px;
+		line-height: 65px;
+		margin: 0px 0px 12px 0px;
+	}
+
+	.logo {
+		background-image: url('http://static.bbci.co.uk/kandlguides/4.14.27.0/img/vendor/kandl-common-sass/iwonder-desktop.png');
+		background-position: 0px 14px;
+		padding-bottom: 3px;
+		width: 181px;
+		height: 58px;
+	}
+}
+
+@media screen and (min-width: 1007px) {
+	.titleHolder, .logoHolder {
+		width: 976px;
+	}
+
+	.titlePanel {
+		width: 628px;
+		margin-right: 332px;
+		padding: 10px 16px 10px 16px;
+	}
+
+	.orb-nav-section > ul {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.orb-nav-section > ul {
+		display: block;
+	}
+}

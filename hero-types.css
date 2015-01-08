@@ -1,0 +1,42 @@
+.kandl-genres {
+	background-position: 50% 0%;
+	height: 400px;
+}
+
+.kandl-guides {
+	background-position: 50% 50%;
+	height: 320px;
+}
+
+.kandl-timelines {
+	background-position: center center;
+	height: 312px;
+}
+
+@media screen and (min-width: 500px) {
+	.kandl-genres {
+		height: 554px;
+	}
+
+	.kandl-guides {
+		height: 450px;
+	}
+
+	.kandl-timelines {
+		height: 447px;
+	}
+}
+
+@media screen and (min-width: 1008px) {
+	.kandl-genres {
+		height: 569px;
+	}
+
+	.kandl-guides {
+		height: 578px;
+	}
+
+	.kandl-timelines {
+		height: 506px;
+	}
+}

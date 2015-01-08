@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8"/>
+	<title>K&amp;L Hero Tester</title>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:700' rel='stylesheet' type='text/css'>
+	<link href="./orb.css" rel="stylesheet">
+ 	<link href="./hero-tester.css" rel="stylesheet">
+ 	<link href="./hero-types.css" rel="stylesheet">
+ 	<link href="./hero-editor.css" rel="stylesheet">
+ 	<link href="./promos.css" rel="stylesheet">
+ 	<link href="./palettes.css" rel="stylesheet">
+
+ 	<nav>
+ 		<ul id="heroTypeList">
+ 			<li><a class="heroOption" id="kandl-genres" href="#">iWonder Index</a></li>
+ 			<li><a class="heroOption" id="kandl-guides" href="#">iWonder Guides</a></li>
+ 			<li><a class="heroOption" id="kandl-timelines" href="#">iWonder Timelines</a></li>
+ 		</ul>
+ 	</nav>
+
+	<div id="orb-header" class="orb-nav-pri orb-nav-pri-white orb-location-d orb-nav-dyn"> <script type="text/javascript"> (function(){var h=document.getElementById('orb-header');if(/bbc\.co\.uk$/i.test(location.hostname)&&orb_masthead_test.getSegment()=='simple'&&(location.pathname===''||location.pathname==='/'||location.pathname==='/frameworks/test/mandolin/acceptance'&&h.setAttribute)){h.setAttribute('data-max-w','0');h.setAttribute('data-max-d','0');}}()); </script> <div class="orb-nav-pri-container b-r b-g-p"> <div class="orb-nav-section orb-nav-blocks"> <a href="/"> <img src="http://static.bbci.co.uk/frameworks/barlesque/2.82.1/orb/4/img/bbc-blocks-dark.png" width="84" height="24" alt="BBC"> </a> </div> <section> <div class="orb-skip-links"> <h2>Accessibility links</h2> <ul>  <li><a id="orb-accessibility-help" href="/accessibility/">Accessibility Help</a></li> </ul> </div> </section>  <div class="orb-nav-section orb-nav-id orb-nav-focus">     <a id="idcta-link" href="https://ssl.bbc.co.uk/id/signin"><img id="idcta-image" src="http://static.bbci.co.uk/id/0.24.7/img/bbcid_orb_signin_dark.png" alt="" width="18" height="18"><span id="idcta-username">Sign in</span></a>           </div>  <nav role="navigation" class="orb-nav"> <div class="orb-nav-section orb-nav-links orb-nav-focus" id="orb-nav-links"> <h2>BBC navigation</h2> <ul>    <li class="orb-nav-news orb-d"> <a href="/news/">News</a> </li>        <li class="orb-nav-sport"> <a href="/sport/">Sport</a> </li>    <li class="orb-nav-weather"> <a href="/weather/">Weather</a> </li>                    <li class="orb-nav-iplayer orb-d"> <a href="/iplayer/">iPlayer</a> </li>                <li class="orb-nav-tv"> <a href="/tv/">TV</a> </li>    <li class="orb-nav-radio"> <a href="/radio/">Radio</a> </li>    <li class="orb-nav-cbbc orb-nav-hide"> <a href="/cbbc/">CBBC</a> </li>    <li class="orb-nav-cbeebies orb-nav-hide"> <a href="/cbeebies/">CBeebies</a> </li>    <li class="orb-nav-arts orb-d orb-nav-hide"> <a href="/arts/">Arts</a> </li>    <li class="orb-nav-hide"> <a href="/ww1/">WW1</a> </li>    <li class="orb-nav-food orb-nav-hide"> <a href="/food/">Food</a> </li>    <li class="orb-nav-history orb-nav-hide"> <a href="/history/">History</a> </li>    <li class="orb-nav-learning orb-nav-hide"> <a href="/learning/">Learning</a> </li>    <li class="orb-nav-music orb-nav-hide"> <a href="/music/">Music</a> </li>    <li class="orb-nav-science orb-nav-hide"> <a href="/science/">Science</a> </li>        <li class="orb-nav-earth orb-d orb-nav-hide"> <a href="http://www.bbc.com/earth/">Earth</a> </li>    <li class="orb-nav-local orb-nav-hide"> <a href="/local/">Local</a> </li>    <li class="orb-nav-travel orb-d orb-nav-hide"> <a href="/travel/">Travel</a> </li>    <li class="orb-nav-fullaz orb-nav-hide"> <a href="/a-z/">Full A-Z</a> </li>    <li id="orb-nav-more" style="width: 90px;" aria-controls="orb-panel-more"><a href="#orb-footer" data-alt="More" class="istats-notrack">More<span class="orb-icon orb-icon-arrow"></span></a></li> </ul> </div> </nav> <div class="orb-nav-section orb-nav-search"> <a href="http://search.bbc.co.uk/search"> <img src="http://static.bbci.co.uk/frameworks/barlesque/2.82.1/orb/4/img/orb-search-dark.png" width="18" height="18" alt="Search the BBC"> </a> <form class="b-f" id="orb-search-form" role="search" method="get" action="http://search.bbc.co.uk/search" accept-charset="utf-8"> <div>   <label for="orb-search-q">Search the BBC</label> <input id="orb-search-q" type="text" name="q" placeholder="Search"> <input type="image" id="orb-search-button" src="http://static.bbci.co.uk/frameworks/barlesque/2.82.1/orb/4/img/orb-search-dark.png" width="17" height="17" alt="Search the BBC"> </div> </form> </div> </div> <div id="orb-panels">  <div id="orb-panel-more" class="orb-panel" aria-labelledby="orb-nav-more"> <div class="orb-panel-content b-g-p b-r orb-nav-sec"> <h2 id="orb-panel-more-title">More<span class="orb-icon orb-icon-arrow"></span></h2><ul>    <li class="orb-nav-news orb-d orb-panel-hide"> <a href="/news/">News</a> </li>        <li class="orb-nav-sport orb-panel-hide"> <a href="/sport/">Sport</a> </li>    <li class="orb-nav-weather orb-panel-hide"> <a href="/weather/">Weather</a> </li>                    <li class="orb-nav-iplayer orb-d orb-panel-hide"> <a href="/iplayer/">iPlayer</a> </li>                <li class="orb-nav-tv orb-panel-hide"> <a href="/tv/">TV</a> </li>    <li class="orb-nav-radio orb-panel-hide"> <a href="/radio/">Radio</a> </li>    <li class="orb-nav-cbbc orb-first-visible"> <a href="/cbbc/">CBBC</a> </li>    <li class="orb-nav-cbeebies"> <a href="/cbeebies/">CBeebies</a> </li>    <li class="orb-nav-arts orb-d"> <a href="/arts/">Arts</a> </li>    <li class=""> <a href="/ww1/">WW1</a> </li>    <li class="orb-nav-food"> <a href="/food/">Food</a> </li>    <li class="orb-nav-history"> <a href="/history/">History</a> </li>    <li class="orb-nav-learning"> <a href="/learning/">Learning</a> </li>    <li class="orb-nav-music"> <a href="/music/">Music</a> </li>    <li class="orb-nav-science"> <a href="/science/">Science</a> </li>        <li class="orb-nav-earth orb-d"> <a href="http://www.bbc.com/earth/">Earth</a> </li>    <li class="orb-nav-local"> <a href="/local/">Local</a> </li>    <li class="orb-nav-travel orb-d"> <a href="/travel/">Travel</a> </li>    <li class="orb-nav-fullaz"> <a href="/a-z/">Full A-Z</a> </li>    </ul> </div> </div></div> </div>
+
+	<div id="dropZone" class="kandl-genres">
+		<div class="logoHolder">
+			<div class="logo"></div>
+		</div>
+
+		<div class="titleHolder">
+			<div class="titlePanel palette-grey">
+				<h2>How much sugar is hiding in my food?</h2>
+				<div class="editCta" id="editHero"></div>
+			</div>			
+		</div>
+
+		<div class="heroEditHolder" style="display:none;">
+			<div class="closeCta" id="closeHeroEditorCta"></div>
+			<ul id="colourPalettes">
+				<li id="palette-turquoise" class="paletteOption palette-turquoise">Turquoise</li>
+				<li id="palette-teal" class="paletteOption palette-teal">Dark Teal</li>
+				<li id="palette-grey" class="paletteOption palette-grey">Dark Grey</li>
+				<li id="palette-pine" class="paletteOption palette-pine">Pine Green</li>
+				<li id="palette-lime" class="paletteOption palette-lime">Lime Green</li>
+				<li id="palette-orange" class="paletteOption palette-orange">Bitesize Orange</li>
+			</ul>
+			<form id="heroTitleForm">
+				<input id="heroTitleInput" type="text" maxlength="60" placeholder="Enter new title..."/>
+				<input class="submitButton" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+
+	<div class="promosHolder">
+		<div class="promoWrapper palette-teal">
+			<a href="#">
+				<div class="promoMedia">
+					<img class="iwonder" src="http://ichef.bbci.co.uk/images/ic/304x304/p02g2dbz.jpg"></img>
+				</div>
+			</a>
+			<div class="promoContext">
+				<p>Feed your curiosity with iWonder</p>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+	<script src="hero-tester.js"></script>
+	<script src="hero-preview.js"></script>
+	<script src="hero-editor.js"></script>
+</html>

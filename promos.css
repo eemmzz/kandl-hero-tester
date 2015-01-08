@@ -1,0 +1,33 @@
+.promoWrapper {
+	width: 645px;
+	height: 314px;
+}
+
+.promoContext {
+	padding: 14px;
+	font-size: 36px;
+}
+
+.promoMedia {
+	float: right;
+}
+
+.promoContext {
+	height: 100%;
+}
+
+img.iwonder {
+	width: 314px;
+	height: 314px;
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.promosHolder {
+	width: 976px;
+	padding: 10px 16px 10px 16px;
+	margin: 0px auto 0px auto;
+}
