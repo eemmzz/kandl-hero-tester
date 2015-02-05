@@ -30,7 +30,7 @@ body, html {
 }
 
 .logo {
-	background-image: url('http://static.bbci.co.uk/kandlguides/4.14.27.0/img/vendor/kandl-common-sass/iwonder-mobile.png');
+	background-image: url('../images/iwonder-mobile.png');
 	background-position: 0px 2px;
 	background-repeat: no-repeat;
 	width: 97px;
@@ -86,7 +86,7 @@ body, html {
 	}
 
 	.logo {
-		background-image: url('http://static.bbci.co.uk/kandlguides/4.14.27.0/img/vendor/kandl-common-sass/iwonder-desktop.png');
+		background-image: url('../images/iwonder-desktop.png');
 		background-position: 0px 14px;
 		padding-bottom: 3px;
 		width: 181px;

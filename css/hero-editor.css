@@ -1,5 +1,5 @@
 .editCta {
-	background-image: url('./images/pen.png');
+	background-image: url('../images/pen.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	opacity: 0.9;
@@ -70,7 +70,7 @@
 
 .closeCta {
 	cursor: pointer;
-	background-image: url('images/close.png');
+	background-image: url('../images/close.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 32px;
